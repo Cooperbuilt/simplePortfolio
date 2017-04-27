@@ -1,0 +1,26 @@
+html {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	box-sizing: border-box;
+	font-size: 12px;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.flex {
+	display: flex;
+}
+
+#hero-right {
+    flex: 1;
+}
+
+#hero-left {
+	flex: 1;
+}
+
