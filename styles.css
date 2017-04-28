@@ -14,13 +14,24 @@ body {
 
 .flex {
 	display: flex;
+	max-width: 2400px;
 }
 
 #hero-right {
     flex: 1;
+    height: 100vh;
+    background: url('me.png')no-repeat center center;
+    background-size: cover;
+    background-position: bottom;
 }
 
 #hero-left {
 	flex: 1;
+	height: 100vh;
+	background: red;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
 }
 
