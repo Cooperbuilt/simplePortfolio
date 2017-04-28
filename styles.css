@@ -4,6 +4,7 @@ html {
 	height: 100%;
 	box-sizing: border-box;
 	font-size: 12px;
+	font-family: helvetica;
 }
 
 body {
@@ -12,26 +13,64 @@ body {
 	padding: 0;
 }
 
+
 .flex {
 	display: flex;
 	max-width: 2400px;
+	background-image:
+    linear-gradient(
+      to bottom right, 
+      #448AFF, #2962FF
+    );
 }
 
 #hero-right {
     flex: 1;
-    height: 100vh;
-    background: url('me.png')no-repeat center center;
-    background-size: cover;
-    background-position: bottom;
+	background-image: url(me.png);
+	background-size: cover;
+	background-position: bottom;
 }
 
 #hero-left {
 	flex: 1;
 	height: 100vh;
-	background: red;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
+	color: white;
 }
+
+.left-wrapper {
+	
+}
+
+#title {
+	font-size: 4em;
+	margin-bottom: 1%;
+
+}
+
+
+hr {
+	border: 1px solid rgba(255,255,255, 0.4);
+	width: 50%;
+
+}
+
+.button {
+	padding: 1% 3%;
+	border: 1px solid white;
+	text-decoration: none;
+	color: white;
+	transition: .4s all cubic-bezier(.45, .24, .85, 1);
+
+}
+
+.button:hover {
+	background: white;
+	color: black;
+}
+
+
 
