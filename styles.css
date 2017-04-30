@@ -19,10 +19,12 @@ body {
 	max-width: 2400px;
 	background-image:
     linear-gradient(
-      to bottom right, 
-      #448AFF, #2962FF
+      to top left, 
+      #425AFF, #2962FF
     );
 }
+
+
 
 #hero-right {
     flex: 1;
@@ -35,18 +37,16 @@ body {
 	flex: 1;
 	height: 100vh;
 	display: flex;
-	flex-direction: column;
+	flex-flow: column;
 	justify-content: center;
 	text-align: center;
 	color: black;
 }
 
 
-
 #title {
-	font-size: 4em;
+	font-size: 5rem;
 	margin-bottom: 1%;
-
 }
 
 
@@ -57,18 +57,79 @@ hr {
 }
 
 .button {
-	padding: 1% 3%;
+	box-sizing: border-box;
+	padding: 2% 4%;
 	border: 1px solid black;
 	text-decoration: none;
 	color: black;
 	transition: .4s all cubic-bezier(.45, .24, .85, 1);
-
+	margin-left: 2%;
+	margin-right: 2%;
+	display: inline-block;
 }
 
 .button:hover {
 	background: gray;
 	color: black;
 }
+
+.portfolio {
+	height: 100%;
+	display: flex;
+	flex-flow: column;
+	background-image: linear-gradient(
+		to bottom right, rgb(255,255,255), rgb(200, 200, 200)
+	);
+	justify-content: space-around;
+}
+
+.row {
+	display: flex;
+	flex-flow: row;
+	min-width: 80%;
+	max-width: 2400px;
+	align-self: center;	
+	justify-content: space-around;
+}
+
+.big-card {
+	background: #2962FF;
+	height: 70%;
+	width: 80%;
+	padding: 8% 8%;
+	margin-right: 10%;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.big-card:hover {
+	box-shadow: none;
+}
+
+.small-card-wrapper {
+	display: flex;
+	flex-flow: column;
+}
+
+
+
+.small-card {
+	height: 100%;
+	width: 10rem;
+	background-color: #425AFF;
+	padding: 2% 4%;
+	box-sizing: border-box;
+	text-align: center;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.small-card:hover {
+	box-shadow: none;
+}
+
+
+
 
 
 
