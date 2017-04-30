@@ -19,7 +19,7 @@ body {
 	max-width: 2400px;
 	background-image:
     linear-gradient(
-      to top left, 
+      to bottom, 
       #425AFF, #2962FF
     );
 }
@@ -40,7 +40,7 @@ body {
 	flex-flow: column;
 	justify-content: center;
 	text-align: center;
-	color: black;
+	color: white;
 }
 
 
@@ -51,7 +51,7 @@ body {
 
 
 hr {
-	border: 1px solid black;
+	border: 1px solid white	;
 	width: 50%;
 
 }
@@ -69,17 +69,18 @@ hr {
 }
 
 .button:hover {
-	background: gray;
+	background: white;
 	color: black;
 }
 
 .portfolio {
-	height: 100%;
 	display: flex;
 	flex-flow: column;
-	background-image: linear-gradient(
-		to bottom right, rgb(255,255,255), rgb(200, 200, 200)
-	);
+	background-image:
+    linear-gradient(
+      to bottom, 
+      #2962FF, white
+    );
 	justify-content: space-around;
 }
 
@@ -88,15 +89,16 @@ hr {
 	flex-flow: row;
 	min-width: 80%;
 	max-width: 2400px;
-	align-self: center;	
+	align-self: center;
+	justify-content: space-between;	
 }
 
 .big-card {
-	background: #2962FF;
+	background: white;
 	height: 70%;
 	width: 80%;
 	padding: 8% 8%;
-	margin-right: 10%;
+	margin: 4%;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
@@ -108,13 +110,13 @@ hr {
 .small-card-wrapper {
 	display: flex;
 	flex-flow: column;
-	justify-content: space-around;
+	justify-content: space-around;	
 }
 
 
 
 .small-card {
-	background-color: #425AFF;
+	background: white;
 	padding: 2% 4%;
 	box-sizing: border-box;
 	text-align: center;
@@ -134,12 +136,12 @@ hr {
 	box-shadow: none;
 }
 
-.titles {
-	display: flex;
-	justify-content: space-between;
-	max-width: 81%;
-	margin-left: 10%;
+aside {
+
 }
+
+
+
 
 
 
