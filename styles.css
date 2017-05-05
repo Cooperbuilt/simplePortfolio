@@ -11,16 +11,16 @@ body {
   margin: 0;
   padding: 0; }
 
+#hero {
+  max-width: 2400px;
+  background-image: url(me.png);
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: bottom right; }
+
 .flex {
   display: flex;
-  max-width: 2400px;
-  background-image: linear-gradient(to bottom, #425AFF, #2962FF); }
-
-#hero-right {
-  flex: 1;
-  background-image: url(me.png);
-  background-size: cover;
-  background-position: bottom; }
+  background: linear-gradient(135deg, rgba(0, 0, 255, 0.9), rgba(255, 0, 0, 0.9) 60%); }
 
 #hero-left {
   flex: 1;
@@ -107,15 +107,29 @@ footer {
   bottom: 0;
   color: black;
   background: white;
+  height: 5rem;
   box-shadow: -10px 0 12px rgba(0, 0, 0, 0.6);
   width: 100%;
   display: flex;
-  align-items: center; }
-  footer h2 {
-    font-size: 4rem;
+  align-items: center;
+  box-sizing: inherit;
+  justify-content: center; }
+  footer span {
+    font-size: 2rem;
     margin-left: 1%; }
+  footer a {
+    font-size: 1rem;
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    margin-left: 1%; }
+  footer a:last-child {
+    padding: 10px; }
 
 .active {
-  color: blue; }
+  background: blue;
+  color: white; }
 
 /*# sourceMappingURL=styles.css.map */
