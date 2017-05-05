@@ -401,7 +401,8 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  color: #193441; }
+  color: #193441;
+  font-family: 'Work Sans', sans-serif; }
 
 .resumeslice {
   position: fixed;
@@ -463,7 +464,8 @@ nav {
 #title {
   font-size: 7rem;
   margin-bottom: 2%;
-  text-shadow: #0076d3 1px 0 15px; }
+  text-shadow: #0076d3 1px 0 15px;
+  font-weight: 700; }
 
 .buttons {
   display: flex;
