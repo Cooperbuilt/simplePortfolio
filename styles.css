@@ -1,154 +1,121 @@
 html {
-	padding: 0;
-	margin: 0;
-	height: 100%;
-	box-sizing: border-box;
-	font-size: 12px;
-	font-family: helvetica;
-}
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 12px;
+  font-family: helvetica; }
 
 body {
-	height: 100%;
-	margin: 0;
-	padding: 0;
-}
-
+  height: 100%;
+  margin: 0;
+  padding: 0; }
 
 .flex {
-	display: flex;
-	max-width: 2400px;
-	background-image:
-    linear-gradient(
-      to bottom, 
-      #425AFF, #2962FF
-    );
-}
-
-
+  display: flex;
+  max-width: 2400px;
+  background-image: linear-gradient(to bottom, #425AFF, #2962FF); }
 
 #hero-right {
-    flex: 1;
-	background-image: url(me.png);
-	background-size: cover;
-	background-position: bottom;
-}
+  flex: 1;
+  background-image: url(me.png);
+  background-size: cover;
+  background-position: bottom; }
 
 #hero-left {
-	flex: 1;
-	height: 100vh;
-	display: flex;
-	flex-flow: column;
-	justify-content: center;
-	text-align: center;
-	color: white;
-}
-
+  flex: 1;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  text-align: center;
+  color: white; }
 
 #title {
-	font-size: 5rem;
-	margin-bottom: 1%;
-}
-
+  font-size: 5rem;
+  margin-bottom: 1%; }
 
 hr {
-	border: 1px solid white	;
-	width: 50%;
-
-}
+  border: 1px solid white;
+  width: 50%; }
 
 .button {
-	box-sizing: border-box;
-	padding: 2% 4%;
-	border: 1px solid black;
-	text-decoration: none;
-	color: black;
-	transition: .4s all cubic-bezier(.45, .24, .85, 1);
-	margin-left: 2%;
-	margin-right: 2%;
-	display: inline-block;
-}
+  box-sizing: border-box;
+  padding: 2% 4%;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+  transition: 0.4s all cubic-bezier(0.45, 0.24, 0.85, 1);
+  margin-left: 2%;
+  margin-right: 2%;
+  display: inline-block; }
 
 .button:hover {
-	background: white;
-	color: black;
-}
+  background: white;
+  color: black; }
 
 .portfolio {
-	display: flex;
-	flex-flow: column;
-	background-image:
-    linear-gradient(
-      to bottom, 
-      #2962FF, white
-    );
-	justify-content: space-around;
-}
+  display: flex;
+  flex-flow: column;
+  background-image: linear-gradient(to bottom, #2962FF, white);
+  justify-content: space-around; }
 
 .row {
-	display: flex;
-	flex-flow: row;
-	min-width: 80%;
-	max-width: 2400px;
-	align-self: center;
-	justify-content: space-between;	
-}
+  display: flex;
+  flex-flow: row;
+  min-width: 80%;
+  max-width: 2400px;
+  align-self: center;
+  justify-content: space-between; }
 
 .big-card {
-	background: white;
-	height: 70%;
-	width: 80%;
-	padding: 8% 8%;
-	margin: 4%;
-	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-}
+  background: white;
+  height: 70%;
+  width: 80%;
+  padding: 8% 8%;
+  margin: 4%;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
 
 .big-card:hover {
-	box-shadow: none;
-}
+  box-shadow: none; }
 
 .small-card-wrapper {
-	display: flex;
-	flex-flow: column;
-	justify-content: space-around;	
-}
-
-
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around; }
 
 .small-card {
-	background: white;
-	padding: 2% 4%;
-	box-sizing: border-box;
-	text-align: center;
-	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-}
+  background: white;
+  padding: 2% 4%;
+  box-sizing: border-box;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); }
 
 .first {
-	align-self: flex-end;
-}
+  align-self: flex-end; }
 
 .second {
-	align-self: flex-start;
-}
+  align-self: flex-start; }
 
 .small-card:hover {
-	box-shadow: none;
-}
+  box-shadow: none; }
 
-aside {
+footer {
+  position: fixed;
+  bottom: 0;
+  color: black;
+  background: white;
+  box-shadow: -10px 0 12px rgba(0, 0, 0, 0.6);
+  width: 100%;
+  display: flex;
+  align-items: center; }
+  footer h2 {
+    font-size: 4rem;
+    margin-left: 1%; }
 
-}
+.active {
+  color: blue; }
 
-
-
-
-
-
-
-
-
-
-
-
-
+/*# sourceMappingURL=styles.css.map */
