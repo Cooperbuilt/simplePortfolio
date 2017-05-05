@@ -1,5 +1,12 @@
-$color1 : blue;
-$color2 : red;
+$black  : #193441;
+$color1 : #209DFF;
+$color2 : #03BCE8;
+$color3 : #FF7A00;
+$sectionPadding : 0 10%;
+$white  : darken(white, 2%);
+
+@import "normalize";
+
 
 
 html {
@@ -15,7 +22,44 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0; 
+	color: $black;
 }
+
+.resumeslice {
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 140px;
+	height: 140px;
+	background-image: -webkit-linear-gradient(-45deg, $white 50%, transparent 50%);
+	margin-top: 0;
+	z-index: 9999;
+
+
+	span {
+		display: inline-block;
+		text-transform: uppercase;
+		background-color: $white;
+		border-radius: 4px;
+		width: auto;
+		margin-top: 41px;
+		margin-bottom: 5px;
+		color: $color2;
+
+	}
+
+}
+	.resalign {
+		width: 100%;
+		height: 75px;
+		margin-top: 5px;
+		padding-left: 15px;
+		padding-top: 0;
+		background-image: url('user.png');
+		background-size: auto 25px;
+		background-position: top 5px left 15px;
+		background-repeat: no-repeat;
+	}
 
 #hero {
 	max-width: 2400px;
@@ -28,48 +72,67 @@ body {
 .flex {
 	display: flex;
 	background: linear-gradient(135deg, rgba($color1, .9), rgba($color2, .9) 60%);
-	
+	padding: $sectionPadding;
+	position: relative;
+}
+
+nav{
+	position: absolute;
+	left: 10%;
+	top: 25px;
 }
 
 
 #hero-left {
-	flex: 1;
 	height: 100vh;
 	display: flex;
 	flex-flow: column;
 	justify-content: center;
-	text-align: center;
+	text-align: left;
 	color: white;
+	width: 50%;
 }
 
 
 #title {
-	font-size: 5rem;
-	margin-bottom: 1%;
+	font-size: 7rem;
+	margin-bottom: 2%;
+	text-shadow: darken($color1, 15%) 1px 0 15px;
 }
 
 
-hr {
-	border: 1px solid white	;
-	width: 50%;
+.buttons {
+	//max-width: 30rem;
+	display: flex;
+	//justify-content: space-between;
+	margin-top: 2%;
 
+	a:nth-child(2){
+		margin: 0 15px;
+	}
 }
 
 .button {
-	box-sizing: border-box;
-	padding: 2% 4%;
-	border: 1px solid black;
 	text-decoration: none;
 	color: black;
-	transition: .4s all cubic-bezier(.45, .24, .85, 1);
-	margin-left: 2%;
-	margin-right: 2%;
+	font-size: 1.5rem;
 	display: inline-block;
+	transition: .2s all cubic-bezier(.45, .24, .85, 1);
+	text-decoration: none;
 }
 
+	.button1{
+		//border: 1px solid $black;
+		padding: 10px 25px 0 0;
+		border-radius: 10px;
+		text-transform: lowercase;
+		font-variant: small-caps;
+		color: $white;
+	}
+
 .button:hover {
-	background: white;
-	color: black;
+	color: white;
+
 }
 
 .portfolio {
@@ -81,6 +144,7 @@ hr {
       #2962FF, white
     );
 	justify-content: space-around;
+	padding: $sectionPadding;
 }
 
 .row {
@@ -140,12 +204,11 @@ aside {
 }
 
 footer {
-	position: fixed;
-	bottom: 0;
+	
 	color: black;
 	background: white;
 	height: 5rem;
-	box-shadow: -10px 0 12px rgba(0,0,0,.6);
+	box-shadow: -4px 0 12px rgba(gray,.6);
 	width: 100%;
 	display: flex;	
 	align-items: center;		
@@ -159,7 +222,7 @@ footer {
 
 	a {
 		font-size: 1rem;
-		border: 1px solid blue;
+		border: 1px solid orange;
 		padding: 10px;		
 		border-radius: 10px;
 		color: black;	
@@ -173,7 +236,7 @@ footer {
 }
 
 .active {
-	background: blue;
+	background: orange;
 	color: white;
 }
 
