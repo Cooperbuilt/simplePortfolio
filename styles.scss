@@ -8,6 +8,13 @@ $white  : darken(white, 2%);
 @import "normalize";
 
 
+@font-face {
+  font-family: 'Norway';
+  src: url('noway-regular-webfont.woff2') format('woff2'),
+       url('noway-regular-webfont.woff') format('woff'),
+       
+}
+
 
 html {
 	padding: 0;
@@ -23,7 +30,7 @@ body {
 	margin: 0;
 	padding: 0; 
 	color: $black;
-	font-family: 'Work Sans', sans-serif;
+	font-family: 'Norway', sans-serif;
 }
 
 .resumeslice {
@@ -35,6 +42,7 @@ body {
 	background-image: -webkit-linear-gradient(-45deg, $white 50%, transparent 50%);
 	margin-top: 0;
 	z-index: 9999;
+	
 
 
 	span {
@@ -99,7 +107,7 @@ nav{
 #title {
 	font-size: 7rem;
 	margin-bottom: 2%;
-	text-shadow: darken($color1, 15%) 1px 0 15px;
+	text-shadow: 3px 3px 5px rgba(darken($color1, 5%), 0.8);
 	font-weight: 700;
 }
 

@@ -389,6 +389,9 @@ template {
 [hidden] {
   display: none; }
 
+@font-face {
+  font-family: 'Norway';
+  src: url("noway-regular-webfont.woff2") format("woff2"), url("noway-regular-webfont.woff") format("woff"); }
 html {
   padding: 0;
   margin: 0;
@@ -402,7 +405,7 @@ body {
   margin: 0;
   padding: 0;
   color: #193441;
-  font-family: 'Work Sans', sans-serif; }
+  font-family: 'Norway', sans-serif; }
 
 .resumeslice {
   position: fixed;
@@ -464,7 +467,7 @@ nav {
 #title {
   font-size: 7rem;
   margin-bottom: 2%;
-  text-shadow: #0076d3 1px 0 15px;
+  text-shadow: 3px 3px 5px rgba(7, 146, 255, 0.8);
   font-weight: 700; }
 
 .buttons {
