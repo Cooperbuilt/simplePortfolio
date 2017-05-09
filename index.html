@@ -49,76 +49,17 @@
 	</div>
 	<article class="portfolio">
 		
-		<section class="row">
-			<div class="big-card">
-			<h2>Portolio v1</h2>
-				<p>Big portfolio card, portfolio build</p>
-			</div>
-			
-			<div class="small-card-wrapper">
-				<div class="small-card first">
-					<p>js type ahead</p>
-					<p>here is some more stuff man</p>
-				</div>
-				<div class="small-card second">
-					<p>js drum machine</p>
-					<p>here is some more stuff man</p>
-				</div>	
-			</div>
-		</section>
-
-		<section class="row">
-		<div class="small-card-wrapper">
-				<div class="small-card">
-					<p>js type ahead</p>
-				</div>
-				<div class="small-card">
-					<p>js drum machine</p>
-				</div>
-			</div>
-			<div class="big-card">
-				<p>Big portfolio card, portfolio build</p>
-			</div>
-			
-		</section>
-
-		<section class="row">
-				<div class="big-card">
-					<p>Big portfolio card, portfolio build</p>
-				</div>
-			<div class="small-card-wrapper">
-				<div class="small-card">
-					<p>js type ahead</p>
-				</div>
-				<div class="small-card">
-					<p>js drum machine</p>
-				</div>
-			</div>
-		</section>
-		<section class="row">
-			
-			<div class="small-card-wrapper">
-				<div class="small-card">
-					<p>js type ahead</p>
-				</div>
-				<div class="small-card">
-					<p>js drum machine</p>
-				</div>
-			</div>
-			<div class="big-card">
-				<p>Big portfolio card, portfolio build</p>
-			</div>
-		</section>
+		
 	</article>
+
 	<footer>
-		<span>Resume:</span>
-			<a class="active" href="#">HTML</a><a href="#">PDF </a>
+		
 	</footer>
 </body>
 	<script type="text/javascript">
 		const hero = document.querySelector('body');
 		const text = document.querySelector('#title');
-		const walk = 100;
+		let walk = 100;
 
 		function updater(e) {
 			const width = hero.offsetWidth;
@@ -140,8 +81,10 @@
 			text.style.textShadow = `${xWalk/5}px ${yWalk/5}px 5px rgba(7, 146, 255, 0.8)`;
 		};
 
+		
+
 
 		hero.addEventListener('mousemove', updater);
-
+		
 	</script>
 </html>
