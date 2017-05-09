@@ -146,7 +146,35 @@ nav{
 
 }
 
+.portfolio {
+	box-sizing: border-box;
+	border: 10px solid white;
+	background: red;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
 
+.card {
+	max-width: 60%;
+	background: blue;
+	box-sizing: border-box;
+	border: 10px solid white;
+	margin-top: 5%;
+	color: white;
+
+
+	img {
+		max-width: 20rem;
+
+	}
+
+	.inner {
+		display: flex;
+		justify-content: space-around;
+	}
+
+}
 
 
 

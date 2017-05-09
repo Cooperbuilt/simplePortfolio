@@ -494,4 +494,25 @@ nav {
 .button:hover {
   color: white; }
 
+.portfolio {
+  box-sizing: border-box;
+  border: 10px solid white;
+  background: red;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+.card {
+  max-width: 60%;
+  background: blue;
+  box-sizing: border-box;
+  border: 10px solid white;
+  margin-top: 5%;
+  color: white; }
+  .card img {
+    max-width: 20rem; }
+  .card .inner {
+    display: flex;
+    justify-content: space-around; }
+
 /*# sourceMappingURL=styles.css.map */
