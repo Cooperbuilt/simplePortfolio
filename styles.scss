@@ -1,6 +1,6 @@
 $black  : #193441;
-$color1 : #209DFF;
-$color2 : #03BCE8;
+$color1 : #008DFF;
+$color2 : darken($color1, 10%);
 $color3 : #FF7A00;
 $sectionPadding : 0 10%;
 $white  : darken(white, 2%);
@@ -22,7 +22,6 @@ html {
 	height: 100%;
 	box-sizing: border-box;
 	font-size: 12px;
-	font-family: helvetica;
 }
 
 body {
@@ -64,10 +63,7 @@ body {
 		margin-top: 5px;
 		padding-left: 15px;
 		padding-top: 0;
-		background-image: url('user.png');
-		background-size: auto 25px;
-		background-position: top 5px left 15px;
-		background-repeat: no-repeat;
+		
 	}
 
 #hero {
@@ -142,30 +138,47 @@ nav{
 	}
 
 .button:hover {
-	color: white;
+	color: black;
 
 }
 
 .portfolio {
 	box-sizing: border-box;
 	border: 10px solid white;
-	background: red;
+	background: linear-gradient(180deg, $color2, darken($color2, 8%) 60%);
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
+.top {
+	.card-title {
+		font-size: 2.5rem;
+	}
+
+	.work-links {
+		float: right;
+		margin-left: 5%;
+
+		a {
+			color: white;
+		}
+	}
+}
+
 .card {
-	max-width: 60%;
-	background: blue;
+	max-width: 70%;
+	background: #02C8A7;
 	box-sizing: border-box;
 	border: 10px solid white;
-	margin-top: 5%;
+	margin-top: 8%;
 	color: white;
+	padding: 2%;
 
 
 	img {
-		max-width: 20rem;
+		max-width: 35rem;
+		border: 5px solid #00FFA0;
 
 	}
 
@@ -174,12 +187,43 @@ nav{
 		justify-content: space-around;
 	}
 
+	.inner-card-right {
+		padding-left: 2%;
+		padding-right: 2%;
+		font-size: 1.3rem;
+	}
+
+	.important {
+		font-size: 1.5rem;
+	}
+
+}
+
+.card:last-child {
+	margin-bottom: 5%;
+}
+
+.headliner {
+	position: relative;
+	top: -60px;
+	left: -10%;
+	font-size: 3rem;
+	background-color: #02C8A7;
+	padding: 2% 8%;
+	border: 10px solid white;
+
+
 }
 
 
-
-
-
+footer {
+	background: #0CDDE8;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 10rem;
+	color: white;
+}
 
 
 

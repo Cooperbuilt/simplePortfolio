@@ -397,8 +397,7 @@ html {
   margin: 0;
   height: 100%;
   box-sizing: border-box;
-  font-size: 12px;
-  font-family: helvetica; }
+  font-size: 12px; }
 
 body {
   height: 100%;
@@ -424,18 +423,14 @@ body {
     width: auto;
     margin-top: 41px;
     margin-bottom: 5px;
-    color: #03BCE8; }
+    color: #0071cc; }
 
 .resalign {
   width: 100%;
   height: 75px;
   margin-top: 5px;
   padding-left: 15px;
-  padding-top: 0;
-  background-image: url("user.png");
-  background-size: auto 25px;
-  background-position: top 5px left 15px;
-  background-repeat: no-repeat; }
+  padding-top: 0; }
 
 #hero {
   max-width: 2400px;
@@ -446,7 +441,7 @@ body {
 
 .flex {
   display: flex;
-  background: linear-gradient(135deg, rgba(32, 157, 255, 0.9), rgba(3, 188, 232, 0.9) 60%);
+  background: linear-gradient(135deg, rgba(0, 141, 255, 0.9), rgba(0, 113, 204, 0.9) 60%);
   padding: 0 10%;
   position: relative; }
 
@@ -467,7 +462,7 @@ nav {
 #title {
   font-size: 7rem;
   margin-bottom: 2%;
-  text-shadow: 3px 3px 5px rgba(7, 146, 255, 0.8);
+  text-shadow: 3px 3px 5px rgba(0, 127, 230, 0.8);
   font-weight: 700; }
 
 .buttons {
@@ -492,27 +487,63 @@ nav {
   color: #fafafa; }
 
 .button:hover {
-  color: white; }
+  color: black; }
 
 .portfolio {
   box-sizing: border-box;
   border: 10px solid white;
-  background: red;
+  background: linear-gradient(180deg, #0071cc, #005aa3 60%);
   display: flex;
   flex-direction: column;
   align-items: center; }
 
+.top .card-title {
+  font-size: 2.5rem; }
+.top .work-links {
+  float: right;
+  margin-left: 5%; }
+  .top .work-links a {
+    color: white; }
+
 .card {
-  max-width: 60%;
-  background: blue;
+  max-width: 70%;
+  background: #02C8A7;
   box-sizing: border-box;
   border: 10px solid white;
-  margin-top: 5%;
-  color: white; }
+  margin-top: 8%;
+  color: white;
+  padding: 2%; }
   .card img {
-    max-width: 20rem; }
+    max-width: 35rem;
+    border: 5px solid #00FFA0; }
   .card .inner {
     display: flex;
     justify-content: space-around; }
+  .card .inner-card-right {
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 1.3rem; }
+  .card .important {
+    font-size: 1.5rem; }
+
+.card:last-child {
+  margin-bottom: 5%; }
+
+.headliner {
+  position: relative;
+  top: -60px;
+  left: -10%;
+  font-size: 3rem;
+  background-color: #02C8A7;
+  padding: 2% 8%;
+  border: 10px solid white; }
+
+footer {
+  background: #0CDDE8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10rem;
+  color: white; }
 
 /*# sourceMappingURL=styles.css.map */
