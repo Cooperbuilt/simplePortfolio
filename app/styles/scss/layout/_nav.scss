@@ -1,0 +1,30 @@
+nav  {
+	position: fixed;
+	top: 20px;
+	left: 10%;
+	width: 40%;
+	font-size: 1.5rem;
+
+	p {
+		display: inline-block;
+		color: black;
+		padding: 0 3% 0 3%;
+	}	
+}
+
+#resume-triangle {
+	font-size: 1.5rem;
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 160px;
+	height: 160px;
+	background-image: linear-gradient(135deg, red 50%, transparent 50%);
+	z-index: 9999;
+}
+
+#resume {
+	position: relative;
+	top: 20px;
+	left: 10%;
+}

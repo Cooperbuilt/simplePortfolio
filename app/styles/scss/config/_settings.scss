@@ -5,13 +5,14 @@
        url('fonts/noway-regular-webfont.woff') format('woff'),     
 }
 
+a {
+	text-decoration: none;
+}
 
+//Colors
 
-//colors 
-
-$blue = #1994F7;
-$lightblue = lighten($blue, 10%);
-$darkblue = darken($blue, 10%);
-
-$white = darken(white, 3%);
+$blue: #1994F7;
+$lightblue: lighten($blue, 10%);
+$darkblue: darken($blue, 10%);
+$white: darken(white, 3%);
 
