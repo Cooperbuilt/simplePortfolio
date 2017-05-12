@@ -1,0 +1,17 @@
+//Font
+@font-face {
+  font-family: 'Norway';
+  src: url('fonts/noway-regular-webfont.woff2') format('woff2'),
+       url('fonts/noway-regular-webfont.woff') format('woff'),     
+}
+
+
+
+//colors 
+
+$blue = #1994F7;
+$lightblue = lighten($blue, 10%);
+$darkblue = darken($blue, 10%);
+
+$white = darken(white, 3%);
+
