@@ -1,6 +1,24 @@
 #hero {
+	max-width: 2000px;
+	background-image:  linear-gradient(135deg, rgba($blue, .9), rgba($darkblue, .9) 60%), url(../images/me.png);
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	background-position: bottom right;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 
+}
 
+#title-card {
+	color: white;
+	width: 50%;
+	margin-left: 10%;
 
-	
+	h1 {
+	  font-size: 6em;
+	  font-weight: 700;
+	}
+
 }
