@@ -12,36 +12,23 @@
 #image-container {
 	width: 80%;
 	margin: 0 auto;
-
 	margin-top: 5%;
 	margin-bottom: 5%;
 	display: flex;
-	flex-flow: row-wrap;
+	flex-wrap: wrap;
+
+	img {
+		max-width: 50%;
+		max-height: 20rem;
+
+		@media screen and (max-width: 1200px) {
+			margin: 1%;
+			max-width: 100%;
+		}
+	}
+
+	
+
 }
 
-.image-card {
-	width: 20rem;
-	height: 20rem;
-	flex: auto;
 
-}
-
-#image1 {
-	background: url(../images/albatross-half.png)no-repeat center center;
-	background-size: cover;
-}
-
-#image2 {
-	background: url(../images/fitfuture-half.png)no-repeat center center;
-	background-size: cover;
-}
-
-#image3 {
-	background: url(../images/portfolio-half.png)no-repeat center center;
-	background-size: cover;
-}
-
-#image4 {
-	background: url(../images/brandish-half.png)no-repeat center center;
-	background-size: cover;
-}
