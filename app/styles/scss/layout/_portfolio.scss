@@ -18,8 +18,9 @@
 	flex-wrap: wrap;
 
 	img {
-		max-width: 50%;
+		max-width: 48%;
 		max-height: 20rem;
+		margin: 1%;
 
 		@media screen and (max-width: 1200px) {
 			margin: 1%;
