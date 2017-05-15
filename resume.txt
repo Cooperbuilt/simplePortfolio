@@ -1,0 +1,49 @@
+Evan Cooper Freelance Web Developer            
+BuiltByCooper.com Evanncooper@gmail.com  
+617-957-8898                                                      
+
+WORK EXPERIENCE 
+
+Freelance Web Developer BuiltByCooper.com - August 2016 to Present 
+Constantly learning new technologies to expand my reach - while always developing within proper standards. 
+Notable Achievement: Deploying 8 marketing landing pages for Country Clubs across the U.S 
+
+Co-Founder/Director Stand Fast, Inc - July 2014 to December 2015 
+Worked with a partner to develop TheFitFuture.com, an innovative platform connecting Personal Trainers and Health Coaches with clients to train over webcam. 
+Developed company from nascency through early revenue stage, exiting due to longevity concerns. 
+
+EDUCATION 
+
+BA in Communication Studies University of Masscahusetts Boston 2014 to 2017 
+Received A grades in both "Programming in Python" and "Data Structures and Algorithms in Java". Also took "Programming in C", "Philosophy of Sentential Logic" and two years of Calculus. Current GPA 3.89. Will Graduate May 2017.
+
+SKILLS Java, HTML 5, Javascript,  CSS3, SASS,  Responsive Development, Git 
+
+MILITARY SERVICE 
+U.S Army - Highest Rank Achieved: SGT
+
+Mortar Squad Leader / Mass National Guard / May ’14 - Nov ‘16 
+Created and executed training plans while working within the paradigms set forth by higher level leadership to achieve mission readiness in preparation for a deployment. 
+Acted as liaison between my squad and other elements within unit to coordinate the training and logistics necessary for company-level mission success. 
+
+Mortar FDC Chief / U.S Army, Fort Bliss, TX / Aug ’12 - May ‘14 
+Ran the fire-direction control and computing for company level training and live fire missions. 
+Planned training missions, crafted range safety controls, oversaw execution while performing in role as computational chief. 
+
+Mortar Team Leader / U.S Army, Wardak Province, Afghanistan / Sep /11 - Sep ’12 
+Began deployment as mortar team member. Volunteered to take over when position opened despite my junior rank. 
+In “on the fly role” 
+	- Self-taught complicated FDC (fire direction computation) through textual study and practice when not on missions. 
+	- Rapidly absorbed command directives formulated multi-level plans, taught plans to subordinates, then led subordinates to successful completion of planned missions in stressful environments 
+	- Led mortar teams on over 200 combat missions including direct action and support by fire, developing excellent small unit leadership abilities under high duress. 
+	- Learned and performed in other critical roles including triage medical care and detainee operations. 
+Protected classified information, maintaining the confidence of my leaders and peers without a single breach. Ensured the emotional welfare of section by instituting group “sensing sessions”. 
+This practice, along with direct personal intervention in problem areas, helped maintain happiness and camaraderie under the most difficult of circumstances. 
+
+Mortar Infantryman / U.S Army, Fort Bliss, TX / Jan ’11 - Sep ‘11
+
+VOLUNTEER WORK
+
+Operation Code October 2016 to Present 
+
+Charity organization dedicated to helping veterans build careers in the technical fields. I offer help to members, aid in the building of projects, and plan/attend events.

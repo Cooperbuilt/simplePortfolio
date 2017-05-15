@@ -1,6 +1,6 @@
 #resume-title {
 	width: 65%;
-	margin-left: -5%;
+	margin-left: 10%;
 	margin-top: 4%;
 
 	h2 {
@@ -14,4 +14,14 @@ a:hover {
 	color: red;
 }
 
+#resume-img {
+	max-width: 65%;
+	margin-left: 10%;
+	margin-top: 4%;
 
+	img {
+		padding-left: 1%;
+		border: 1px solid black;
+	}
+
+}
