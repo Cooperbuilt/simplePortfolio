@@ -1,6 +1,7 @@
 #portfolio-title {
-	width: 50%;
+	width: 65%;
 	margin-left: 10%;
+	margin-top: 4%;
 
 	h2 {
 		font-size: 3rem;
@@ -22,14 +23,12 @@
 		max-height: 20rem;
 		margin: 1% 2% 1% 0;
 
+
 		@media screen and (max-width: 1200px) {
 			margin: 1%;
 			max-width: 100%;
 		}
 	}
 
-	
-
 }
-
 
