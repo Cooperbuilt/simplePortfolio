@@ -9,7 +9,7 @@
 }
 
 
-#container {
+#image-container {
 	width: 80%;
 	margin: 0 auto;
 	margin-top: 5%;
@@ -20,7 +20,7 @@
 	img {
 		max-width: 48%;
 		max-height: 20rem;
-		margin: 1%;
+		margin: 1% 2% 1% 0;
 
 		@media screen and (max-width: 1200px) {
 			margin: 1%;
