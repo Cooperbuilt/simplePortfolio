@@ -39,12 +39,16 @@
 	}
 
 	.hero-links img {
-
+		
 		@media screen and (max-width: 1150px) {
 			height: 20px;
 			width: 20px;
 		}
 	}
+}
+
+.hero-links:hover {
+	fill: black;
 }
 
 #resume-triangle {

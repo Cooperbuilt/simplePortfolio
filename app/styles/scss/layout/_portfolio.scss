@@ -11,24 +11,46 @@
 
 
 #image-container {
-	width: 80%;
-	margin: 0 auto;
+	width: 75%;
+	margin-left: 9%;
 	margin-top: 5%;
 	margin-bottom: 5%;
 	display: flex;
 	flex-wrap: wrap;
+}
+
+.image-wrapper {
+	display: flex;
+	flex-direction: row-reverse;
 
 	img {
-		max-width: 48%;
+		max-width: 80%;
 		max-height: 20rem;
-		margin: 1% 2% 1% 0;
+		margin: 2% 2% 2% 0;
 
 
 		@media screen and (max-width: 1200px) {
 			margin: 1%;
 			max-width: 100%;
 		}
-	}
 
+		@media screen and (max-width: 750px) {
+			margin: 1%;
+			max-width: 100%;
+			max-height: 19rem;
+		}
+
+		@media screen and (max-width: 650px) {
+			margin: 1% 0 2% 0;
+			max-width: 100%;
+			max-height: 17rem;
+		}
+	}
+}
+
+.image-links {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
 }
 
