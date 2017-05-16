@@ -1,6 +1,6 @@
 #navigation  {
 	position: fixed;
-	top: 20px;
+	top: 8px;
 	left: 9%;
 	width: 40%;
 	font-size: 1.6rem;
@@ -21,6 +21,7 @@
 	@media screen and (max-width: 1150px) {
 		font-size: 1.2rem;
 		left: 11%;
+		top: 20px;
 	}
 
 	@media screen and (max-width: 850px) {
@@ -35,6 +36,14 @@
 		width: 100%;
 		font-size: 1rem;
 		left: 20%
+	}
+
+	.hero-links img {
+
+		@media screen and (max-width: 1150px) {
+			height: 20px;
+			width: 20px;
+		}
 	}
 }
 
@@ -58,7 +67,7 @@
 	@media screen and (max-width: 520px) {
 		font-size: 1rem;
 		width: 100px;
-		height: 100px;
+		height: 100px; 
 	}
 }
 
@@ -66,6 +75,10 @@
 	position: relative;
 	top: 20px;
 	left: 10%;
+
+	@media screen and (max-width: 520px) {
+		top: 23px;
+	}
 
 	a {
 		color: $blue;
@@ -76,3 +89,4 @@
 		}
 	}
 }
+

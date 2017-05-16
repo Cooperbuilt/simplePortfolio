@@ -15,12 +15,6 @@
 	}
 }
 
-
-
-.hero-links:last-child {
-	margin-left: 5%;
-}
-
 #hero-title {
 	color: white;
 	width: 45%;
@@ -29,6 +23,7 @@
 	@media screen and (max-width:1200px) {
 		width: 55%;
 		margin-left: 11%;
+		
 	}
 
 	@media screen and (max-width:900px) {
