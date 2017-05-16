@@ -3,18 +3,26 @@ nav  {
 	top: 20px;
 	left: 9%;
 	width: 40%;
-	font-size: 1.2rem;
+	font-size: 1.6rem;
 	font-variant: small-caps;
 
-	p {
+	a {
 		display: inline-block;
-		color: black;
+		color: $white;
 		padding: 0 3% 0 3%;
-	}	
+		transition: .3s cubic-bezier(.0,.59,1,.6);
+
+
+		&:hover {
+		   color: #0BF7DE;
+		}
+	}
+
+
 }
 
 #resume-triangle {
-	font-size: 1.2rem;
+	font-size: 1.6rem;
 	font-variant: small-caps;
 	position: fixed;
 	left: 0;
@@ -28,5 +36,14 @@ nav  {
 #resume {
 	position: relative;
 	top: 20px;
-	left: 15%;
+	left: 10%;
+
+	a {
+		color: $blue;
+		transition: .3s cubic-bezier(.0,.59,1,.6);
+
+		&:hover {
+			color: black;
+		}
+	}
 }
